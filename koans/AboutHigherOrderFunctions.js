@@ -29,7 +29,7 @@ describe("About Higher Order Functions", function () {
     var reduction = _(numbers).reduce(
             function(/* result from last call */ memo, /* current */ x) { return memo + x }, /* initial */ 0);
 
-    expect(reduction).toBe(FILL_ME_IN);
+    expect(reduction).toBe(6);
     expect(numbers).toEqual(FILL_ME_IN);
   });
 
