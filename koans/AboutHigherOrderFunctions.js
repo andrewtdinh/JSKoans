@@ -13,7 +13,7 @@ describe("About Higher Order Functions", function () {
 
     expect(odd).toEqual([1, 3]);
     expect(odd.length).toBe(2);
-    expect(numbers.length).toBe(FILL_ME_IN);
+    expect(numbers.length).toBe(3);
   });
 
   it("should use 'map' to transform each element", function () {
