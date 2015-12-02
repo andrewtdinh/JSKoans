@@ -20,7 +20,7 @@ describe("About Higher Order Functions", function () {
     var numbers = [1, 2, 3];
     var numbersPlus1 = _(numbers).map(function(x) { return x + 1 });
 
-    expect(numbersPlus1).toEqual(FILL_ME_IN);
+    expect(numbersPlus1).toEqual([2, 3, 4]);
     expect(numbers).toEqual(FILL_ME_IN);
   });
 
