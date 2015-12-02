@@ -30,7 +30,7 @@ describe("About Higher Order Functions", function () {
             function(/* result from last call */ memo, /* current */ x) { return memo + x }, /* initial */ 0);
 
     expect(reduction).toBe(6);
-    expect(numbers).toEqual(FILL_ME_IN);
+    expect(numbers).toEqual([1, 2, 3]);
   });
 
   it("should use 'forEach' for simple iteration", function () {
